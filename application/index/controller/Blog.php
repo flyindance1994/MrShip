@@ -8,11 +8,17 @@
 namespace app\index\controller;
 
 use think\Controller;
+use think\Loader;
 
 class Blog extends Controller
 {
     public function index()
     {
-        echo "Hello";
+        $message=Loader::model("Message");
+
+        $message->find();
+
+        dump($message);
+//        $message->add($_POST);
     }
 }
