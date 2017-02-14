@@ -1,7 +1,6 @@
 <?php
 namespace app\index\controller;
 
-use think\console\command\make\Model;
 use think\Controller;
 use think\Loader;
 
