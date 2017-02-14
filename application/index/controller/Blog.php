@@ -16,9 +16,20 @@ class Blog extends Controller
     {
         $message=new Message();
 
-        $message->select();
+        $result = $message->find();
+	
+	//$result = json_decode(json_encode($result),true);
+	
+	dump($result);	
 
-        dump($message);
+	echo "*********************************\n";
+
+	foreach($result as $key=>$item){ 
+	    dump($item->getAttr('content')); 
+	} 
+	
+	echo "*********************************";
+        //dump($message);
 //        $message->add($_POST);
     }
 }
