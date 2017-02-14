@@ -16,7 +16,7 @@ class Blog extends Controller
     {
         $message=Loader::model("Message");
 
-        $message->find();
+        $message->select();
 
         dump($message);
 //        $message->add($_POST);
