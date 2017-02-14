@@ -14,22 +14,19 @@ class Blog extends Controller
 {
     public function index()
     {
-        $message=new Message();
+        try {
+            $pageSize = 4;
+            $Message = new Message();
 
-        $result = $message->find();
-	
-	//$result = json_decode(json_encode($result),true);
-	
-	dump($result);	
+            $messages = $Message->paginate($pageSize);
 
-	echo "*********************************\n";
+            $this->assign('messages', $messages);
 
-	foreach($result as $key=>$item){ 
-	    dump($item->getAttr('content')); 
-	} 
-	
-	echo "*********************************";
-        //dump($message);
-//        $message->add($_POST);
+            $htmls = $this->fetch();
+
+            return $htmls;
+        } catch (\Exception $e) {
+            return '系统错误' . $e->getMessage();
+        }
     }
 }

@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>MrShip's Blog</title>
+    <link rel="stylesheet" type="text/css" href="/MrShip/public/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
-wahaha
+<body class="container">
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover table-bordered">
+            <tr class="info">
+                <th>序号</th>
+                <th>名称</th>
+                <th>联系方式</th>
+                <th>内容</th>
+                <th>创建时间</th>
+            </tr>
+            {volist name="messages" id="message" key="key"}
+            <tr>
+                <td>{$key}</td>
+                <td>{$message->getData('name')}</td>
+                <td>{$message->getData('contact')}</td>
+                <td>{$message->getData('content')}</td>
+                <td>{$message->getData('create_time')}</td>
+            </tr>
+            {/volist}
+        </table>
+        {$messages->render()}
+    </div>
+</div>
 </body>
 </html>
