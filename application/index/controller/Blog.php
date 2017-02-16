@@ -15,7 +15,7 @@ class Blog extends Controller
     public function index()
     {
         try {
-            $pageSize = 4;
+            $pageSize = 5;
             $Message = new Message();
 
             $messages = $Message->paginate($pageSize);
