@@ -366,5 +366,15 @@ p {
     transition: 1s;
 }
 
+.ship{
+    height:100%;
+    font-family: '思源黑体 CN Medium';
+    background-image: url('/static/image/bg_image.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 
