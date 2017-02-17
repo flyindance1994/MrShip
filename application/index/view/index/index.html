@@ -201,7 +201,7 @@
         pop: navchange = function (L) {/* 每次有url变更时都会触发pop回调 */
             /* L 为当前回调函数名称（目前仅支持关键字回调情况） */
 
-            var a;//临时变量
+            var a=null;//临时变量
             if (a = $('nav li a.active')) //如果存在这个DOM
                 a.className = ''; //修改它的ClassName
             if (a = $('nav li a[href="#!' + L + '"]')) //如果存在这个DOM
