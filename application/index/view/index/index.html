@@ -7,7 +7,6 @@
     <meta name="author" content="MRSHIP"/>
     <meta name="Resource-type" content="Document"/>
 
-
     <link rel="stylesheet" type="text/css" href="/static/plugins/fullpage/css/jquery.fullPage.css"/>
     <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -30,11 +29,11 @@
         <div class="collapse navbar-collapse navbar-right is-collapse">
             <ul class="nav navbar-nav">
                 <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
-                <li class="active"><a href="#!home" style="text-align: center"><span>首页</span></a></li>
-                <li><a href="#!code" style="text-align: center"><span>代码</span></a></li>
-                <li><a href="#" style="text-align: center"><span>摄影</span></a></li>
-                <li><a href="#" style="text-align: center"><span>留言</span></a></li>
-                <li><a href="#" style="text-align: center"><span>rss</span></a></li>
+                <li class="active"><a href="/" style="text-align: center"><span>首页</span></a></li>
+                <li><a href="/index/code" onclick="enterPage(1)" style="text-align: center"><span>代码</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(4)" style="text-align: center"><span>rss</span></a></li>
             </ul>
         </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
@@ -162,13 +161,14 @@
 
 <script type="text/javascript" src="/static/plugins/fullpage/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="/static/js/examples.js"></script>
+<script type="text/javascript" src="/static/js/mrship.js"></script>
 <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('#fullpage').fullpage({
-            sectionsColor: ['rgba(0, 0, 0, 0.7)', 'rgba(255, 255, 255, 0.7)', 'rgba(0, 0, 0, 0.7)', 'rgba(255, 255, 255, 0.7)', 'rgba(0, 0, 0, 0.7)', 'rgba(204, 221, 255, 0.5)'],
+            sectionsColor: ['rgba(0, 0, 0, 0.9)', 'rgba(255, 255, 255, 0.8)', 'rgba(0, 0, 0, 0.9)', 'rgba(255, 255, 255, 0.8)', 'rgba(0, 0, 0, 0.9)', 'rgba(204, 221, 255, 0.9)'],
             anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', 'lastPage'],
             menu: '#menu'
         });
