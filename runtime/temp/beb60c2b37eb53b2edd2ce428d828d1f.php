@@ -1,0 +1,206 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"K:\workspace\MrShip\public/../application/index\view\index\index.html";i:1487411747;}*/ ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>MrShip - 分享站</title>
+    <meta name="author" content="MRSHIP"/>
+    <meta name="Resource-type" content="Document"/>
+
+    <link rel="stylesheet" type="text/css" href="/static/plugins/fullpage/css/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+</head>
+<body class="ship">
+
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
+     style="background-color:rgba(0, 0, 0, 0.5);color: #ffffff;background-image: none;border: none">
+    <div class="container">
+        <div class="navbar-header nav-title ">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="color: #FFFFFF">I'm Ship</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right is-collapse">
+            <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
+                <li class="active"><a href="/" style="text-align: center"><span>首页</span></a></li>
+                <li><a href="/index/code" onclick="enterPage(1)" style="text-align: center"><span>代码</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(4)" style="text-align: center"><span>rss</span></a></li>
+            </ul>
+        </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+</div>
+
+<div id="fullpage" style="height: 100%">
+    <div class="section active" id="section0">
+        <h1 style="font-size: 150px;color: #ffffff">I AM MRSHIP.</h1>
+        <p style="font-size: 24px;color: #ffffff">try to be an excellent coder and a good photographer</p>
+        <button id="learn_more" class="btn" style="margin-top: 10%" data-menuanchor="secondPage" href="#secondPage"><a
+                href="#secondPage">learn more</a></button>
+        <!--<img src="imgs/fullPage.png" alt="fullPage" />-->
+    </div>
+    <div class="section" id="section1">
+        <div class="intro col-lg-6 col-md-6 col-sm-12" style="margin-bottom: 60px">
+            <img src="/static/image/icon/programmer1.png">
+            <h1 style="font-size: 40px;color: #000">As a Coder</h1>
+            <br>
+            <p style="font-size: 15px;color: #000">2015年接触php、JavaScript，在校接手校外php项目开发，触摸Web门槛</p>
+            <br>
+            <p style="font-size: 15px;color: #000">2016年11月正式参加工作，现已习得技能HTML(5), CSS(3), JAVASCRIPT, PYTHON, PHP,
+                MONGODB, REDIS, LINUX</p>
+            <br>
+            <p style="font-size: 15px;color: #000">希望有朝一日成为独当一面的全栈工程师</p>
+        </div>
+
+        <div class="intro col-lg-6 col-md-6 col-sm-12">
+            <img src="/static/image/icon/photographer-standing-behind-photo-camera-on-a-tripod-from-side-view%20(1).png">
+            <h1 style="font-size: 40px;color: #000">As a Photographer</h1>
+            <br>
+            <p style="font-size: 15px;color: #000">一份不被客户、需求、PM所局限的爱好</p>
+            <br>
+            <p style="font-size: 15px;color: #000">
+                入摄影坑两年，爬过山，扫过街，打过鸟，玩过光绘，熬过延时，不接私房。玩过佳能，自用尼康，借过索法，摸过徕卡，不讲刀锐奶化，只为纪录平凡</p>
+            <br>
+            <p style="font-size: 15px;color: #000">拒绝文艺，摄影可是技术活</p>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1 style="font-size: 100px;color: #ffffff">Who Am I.</h1>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="icon" src="/static/image/icon/user%20(1).png" style="margin-bottom: 30px">
+                <p style="font-size: 14px;color: #ffffff;text-align: center">Mr.Ship，常用名邓舟</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 10px" >祖籍四川，现居北京，90后热血小青年，以钻研为乐</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 40px">不会拍照的厨子不是好码农"</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="icon" src="/static/image/icon/goal.png" style="margin-bottom: 30px">
+                <p style="font-size: 14px;color: #ffffff;text-align: center">钻研的不只是代码</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 10px">画过素描、练过毛笔、拧过魔方、学过设计</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 40px">工作后，只留下代码、厨艺、摄影</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="icon" src="/static/image/icon/infinite-time.png" style="margin-bottom: 30px">
+                <p style="font-size: 14px;color: #ffffff;text-align: center">买不起房的小北漂</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 10px">未来的目标，能养得起媳妇，玩得起相机，买得起厨具</p>
+                <p style="font-size: 14px;color: #ffffff;text-align: center;margin-bottom: 40px">"什么都略懂一点，生活更多彩一点"</p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="intro">
+            <h1 style="font-size: 100px;color: #000">Contact Me.</h1>
+            <p style="color: #000">If you have any question,please contact me.</p>
+            <br>
+            <div style="width: 100%;border-bottom: 1px solid;border-color: rgba(0,0,0,0.1)"></div>
+            <br>
+            <br>
+            <div class="col-lg-12 col-md-12 col-sm-12" style="padding-left: 30px;padding-right: 30px">
+                <form role="form" class="col-lg-12" action="<?php echo url('getMessage'); ?>" method="post">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control" type="text" name="name" placeholder="昵称/姓名" style="background-color: rgba(255, 255, 255, 0.6)"/>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input class="form-control" type="text" name="contact" placeholder="联系方式" style="background-color: rgba(255, 255, 255, 0.6)"/>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <label class="col-lg-12 col-md-12 col-sm-12" style="padding: 0">
+                            <textarea class="form-control" name="content" style="resize: none;height: 150px;background-color: rgba(255, 255, 255, 0.6)"></textarea>
+                        </label>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <br>
+                        <button id="send" class="btn btn-sub" type="submit">send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 30px">
+                <div style="width: 45%;float: none;margin-left: auto;margin-right: auto">
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a href="http://weibo.com/mrship" target="_blank"><img src="/static/image/icon/weibo-website-logo.png"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a href="https://github.com/flyindance1994" target="_blank"><img
+                                src="/static/image/icon/github.png"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a id="wechat_icon"><img src="/static/image/icon/chat-speech-bubbles.png"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a id="qq_icon"><img src="/static/image/icon/qq-penguin-shape.png"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a href="https://www.facebook.com/mrshipzhou" target="_blank"><img
+                                src="/static/image/icon/facebook-logo-in-circular-button-outlined-social-symbol.png"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 drift">
+                        <a href="mailto:flyindancedz@gmail.com"><img src="/static/image/icon/gmail-logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/static/plugins/fullpage/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="/static/js/examples.js"></script>
+<script type="text/javascript" src="/static/js/mrship.js"></script>
+<script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            sectionsColor: ['rgba(0, 0, 0, 0.7)', 'rgba(255, 255, 255, 0.8)', 'rgba(0, 0, 0, 0.7)', 'rgba(255, 255, 255, 0.8)', 'rgba(0, 0, 0, 0.7)', 'rgba(204, 221, 255, 0.9)'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', 'lastPage'],
+            menu: '#menu'
+        });
+    });
+</script>
+<script>
+    $('#qq_icon').click(function () {
+        var qq_layer = parent.layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 1,
+            area: ['270px', '370px'],
+            btn: '',
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: true,
+            scrollbar: false,
+            content: "<img style='text-align: center' src='/static/image/code/qrcode_1485931966902.jpg'>"
+        });
+    });
+    $('#wechat_icon').click(function () {
+        var wechat_layer = parent.layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 1,
+            area: ['256px', '256px'],
+            btn: '',
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: true,
+            scrollbar: false,
+            content: "<img style='text-align: center' src='/static/image/code/mmqrcode1485932069181.png'>"
+        });
+    });
+</script>
+</html>

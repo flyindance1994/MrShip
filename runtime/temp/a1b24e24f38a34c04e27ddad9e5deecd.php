@@ -1,0 +1,110 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"K:\workspace\MrShip\public/../application/index\view\code\index.html";i:1487387646;}*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MrShip_代码</title>
+    <meta name="author" content="MRSHIP"/>
+    <meta name="Resource-type" content="Document"/>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+
+</head>
+<body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-attachment:fixed">
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
+     style="background-color:rgba(0, 0, 0, 0.5);color: #ffffff;background-image: none;border: none">
+    <div class="container">
+        <div class="navbar-header nav-title ">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="color: #FFFFFF">I'm Ship</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right is-collapse">
+            <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
+                <li><a href="/" style="text-align: center"><span>首页</span></a></li>
+                <li class="active"><a href="/index/code" onclick="enterPage(1)"
+                                      style="text-align: center"><span>代码</span></a></li>
+                <li><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
+                </li>
+                <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a>
+                </li>
+                <li><a href="javascript:void(0)" onclick="enterPage(4)" style="text-align: center"><span>rss</span></a>
+                </li>
+            </ul>
+        </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+</div>
+
+<div class="container" style="height: 100%;width:100%;position: relative;margin: 0;padding: 0 0 60px 0">
+    <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
+    <div class="row" style="padding-top: 60px">
+        <div class="blog-content-area">
+            <div class="blog-content-block">
+                <div class="blog-content-text noimg">
+                    <a href="/blog/article/5808bc603344715766a16631">
+                        <h2>使用 gulp,webpack,es6,sass,react 等开发复杂单页面项目</h2>
+                    </a>
+                    <div class="blog-tag">tag<a href="/blog/1?tags=100">Javascript</a></div>
+                    <a href="/blog/article/5808bc603344715766a16631">
+                        <div class="blog-review">自从开始放肆的使用 es6 之后就变得一发不可收拾，经手的很多项目也逐渐变成了基于 react.js
+                            的单页面项目。中间走了不少弯路，尤其是在各种工具之间的选型和使用上，折腾大半年之后，稍稍记录一下这个过程中使用到的一些东西以及遇到的一些坑。
+
+                            0. 初始化项目（npm相关）
+
+                            开始之前先简单的介绍一下npm的相关知识，由于现代的项目依赖于各种 ...
+                        </div>
+                    </a>
+                    <div class="blog-info">
+                        <div class="blog-time"><span></span><span></span></div>
+                        <div class="blog-read">
+                            <span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-content-area">
+            <div class="blog-content-block">
+                <div class="blog-content-text noimg">
+                    <a href="/blog/article/5808bc603344715766a16631">
+                        <h2>使用 gulp,webpack,es6,sass,react 等开发复杂单页面项目</h2>
+                    </a>
+                    <div class="blog-tag">tag<a href="/blog/1?tags=100">Javascript</a></div>
+                    <a href="/blog/article/5808bc603344715766a16631">
+                        <div class="blog-review">自从开始放肆的使用 es6 之后就变得一发不可收拾，经手的很多项目也逐渐变成了基于 react.js
+                            的单页面项目。中间走了不少弯路，尤其是在各种工具之间的选型和使用上，折腾大半年之后，稍稍记录一下这个过程中使用到的一些东西以及遇到的一些坑。
+
+                            0. 初始化项目（npm相关）
+
+                            开始之前先简单的介绍一下npm的相关知识，由于现代的项目依赖于各种 ...
+                        </div>
+                    </a>
+                    <div class="blog-info">
+                        <div class="blog-time"><span></span><span></span></div>
+                        <div class="blog-read">
+                            <span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/static/js/examples.js"></script>
+<script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
+
+</html>
