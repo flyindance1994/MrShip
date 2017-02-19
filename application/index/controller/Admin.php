@@ -8,7 +8,8 @@
 namespace app\index\controller;
 
 use think\Controller;
-use think\File;
+use think\Loader;
+use app\index\model\Post;
 
 class Admin extends Controller
 {
@@ -22,8 +23,13 @@ class Admin extends Controller
      */
     public function imageUpload()
     {
-        dump($_POST);
-
-        exit;
+        $posts=new Post;
+        $posts->title=input('post.name');
+        $posts->type=1;
+        $posts->content=input('post.content');
+        $posts->introduce=input('post.introduce');
+//        dump($posts);
+        $posts->save();
+        $this->success('成功');
     }
 }

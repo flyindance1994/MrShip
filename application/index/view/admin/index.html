@@ -48,11 +48,19 @@
         <div class="col-lg-12">
             <!--<textarea class="ckeditor" id="t1" name="t1" cols="80" rows="10"></textarea>-->
             <form action="/index/Admin/imageUpload" method="post">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input class="form-control" type="text" name="title" placeholder="标题"/>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input class="form-control" type="text" name="introduce" placeholder="介绍"/>
+                </div>
                 <!-- 加载编辑器的容器 -->
-                <script id="container" name="content" type="text/plain">
+                <script id="container" name="content" type="text/plain" class="col-lg-12" style="padding-top:30px">
 
                 </script>
-                <button type="submit">提交</button>
+                <div class="col-lg-6 col-md-6 col-sm-6" style="padding-top: 20px">
+                    <button type="submit">提交</button>
+                </div>
             </form>
         </div>
     </div>
