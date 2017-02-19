@@ -8,9 +8,22 @@
 namespace app\index\controller;
 
 use think\Controller;
+use think\File;
 
-class Admin extends Controller{
-    public function index(){
+class Admin extends Controller
+{
+    public function index()
+    {
         return view();
+    }
+
+    /**
+     *
+     */
+    public function imageUpload()
+    {
+        dump($_POST);
+
+        exit;
     }
 }

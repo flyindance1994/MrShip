@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"K:\workspace\MrShip\public/../application/index\view\admin\index.html";i:1487412755;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"K:\workspace\MrShip\public/../application/index\view\admin\index.html";i:1487434049;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,7 @@
                 <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
                 <li><a href="/" style="text-align: center"><span>首页</span></a></li>
                 <li><a href="/index/code" onclick="enterPage(1)"
-                                      style="text-align: center"><span>代码</span></a></li>
+                       style="text-align: center"><span>代码</span></a></li>
                 <li><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
                 </li>
                 <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a>
@@ -47,7 +47,14 @@
     <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
     <div class="row col-lg-12" style="padding-top: 60px">
         <div class="col-lg-12">
-            <textarea class="ckeditor" id="t1" name="t1" cols="80" rows="10"></textarea>
+            <!--<textarea class="ckeditor" id="t1" name="t1" cols="80" rows="10"></textarea>-->
+            <form action="/index/Admin/imageUpload" method="post">
+                <!-- 加载编辑器的容器 -->
+                <script id="container" name="content" type="text/plain">
+
+                </script>
+                <button type="submit">提交</button>
+            </form>
         </div>
     </div>
 </div>
@@ -59,5 +66,13 @@
 <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="/static/plugins/ckeditor/ckeditor.js"></script>
+<!-- 配置文件 -->
+<script type="text/javascript" src="/static/plugins/ueditor/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="/static/plugins/ueditor/ueditor.all.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">
+    var editor = UE.getEditor('container');
+</script>
 
 </html>

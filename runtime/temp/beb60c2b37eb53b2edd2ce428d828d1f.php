@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"K:\workspace\MrShip\public/../application/index\view\index\index.html";i:1487411747;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"K:\workspace\MrShip\public/../application/index\view\index\index.html";i:1487433514;}*/ ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +162,6 @@
 
 <script type="text/javascript" src="/static/plugins/fullpage/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="/static/js/examples.js"></script>
-<script type="text/javascript" src="/static/js/mrship.js"></script>
 <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
