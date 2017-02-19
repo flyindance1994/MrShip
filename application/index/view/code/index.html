@@ -46,19 +46,16 @@
     <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
     <div class="row" style="padding-top: 60px">
         <div class="blog-content-area">
+            {volist name="posts" id="post" key="key"}
             <div class="blog-content-block">
                 <div class="blog-content-text noimg">
                     <a href="/blog/article/5808bc603344715766a16631">
-                        <h2>使用 gulp,webpack,es6,sass,react 等开发复杂单页面项目</h2>
+                        <h2>{$post->getData('title')}</h2>
                     </a>
-                    <div class="blog-tag">tag<a href="/blog/1?tags=100">Javascript</a></div>
-                    <a href="/blog/article/5808bc603344715766a16631">
-                        <div class="blog-review">自从开始放肆的使用 es6 之后就变得一发不可收拾，经手的很多项目也逐渐变成了基于 react.js
-                            的单页面项目。中间走了不少弯路，尤其是在各种工具之间的选型和使用上，折腾大半年之后，稍稍记录一下这个过程中使用到的一些东西以及遇到的一些坑。
-
-                            0. 初始化项目（npm相关）
-
-                            开始之前先简单的介绍一下npm的相关知识，由于现代的项目依赖于各种 ...
+                    <div class="blog-tag">tag<a href="/blog/1?tags=100">{$post->getData('type')}</a></div>
+                    <a href="#">
+                        <div class="blog-review">
+                            {$post->getData('introduce')}
                         </div>
                     </a>
                     <div class="blog-info">
@@ -69,31 +66,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="blog-content-area">
-            <div class="blog-content-block">
-                <div class="blog-content-text noimg">
-                    <a href="/blog/article/5808bc603344715766a16631">
-                        <h2>使用 gulp,webpack,es6,sass,react 等开发复杂单页面项目</h2>
-                    </a>
-                    <div class="blog-tag">tag<a href="/blog/1?tags=100">Javascript</a></div>
-                    <a href="/blog/article/5808bc603344715766a16631">
-                        <div class="blog-review">自从开始放肆的使用 es6 之后就变得一发不可收拾，经手的很多项目也逐渐变成了基于 react.js
-                            的单页面项目。中间走了不少弯路，尤其是在各种工具之间的选型和使用上，折腾大半年之后，稍稍记录一下这个过程中使用到的一些东西以及遇到的一些坑。
-
-                            0. 初始化项目（npm相关）
-
-                            开始之前先简单的介绍一下npm的相关知识，由于现代的项目依赖于各种 ...
-                        </div>
-                    </a>
-                    <div class="blog-info">
-                        <div class="blog-time"><span></span><span></span></div>
-                        <div class="blog-read">
-                            <span></span><span></span><span></span><span></span><span></span><span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {/volist}
+            </table>
+            {$posts->render()}
         </div>
     </div>
 </div>
