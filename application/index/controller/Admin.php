@@ -24,7 +24,7 @@ class Admin extends Controller
     public function imageUpload()
     {
         $posts=new Post;
-        $posts->title=input('post.name');
+        $posts->title=input('post.title');
         $posts->type=1;
         $posts->content=input('post.content');
         $posts->introduce=input('post.introduce');
