@@ -28,7 +28,7 @@ class Admin extends Controller
         $posts->type=1;
         $posts->content=input('post.content');
         $posts->introduce=input('post.introduce');
-//        dump($posts);
+       // dump($posts);
         $posts->save();
         $this->success('成功');
     }
