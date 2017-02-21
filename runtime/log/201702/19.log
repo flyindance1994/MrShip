@@ -40,3 +40,231 @@
 [ 2017-02-19T20:26:01+08:00 ] [ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
 
 ---------------------------------------------------------------
+[ 2017-02-19T22:34:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000189s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:37:37+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000191s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:38:19+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] INSERT INTO `mrship_post` (`title` , `type` , `content` , `introduce`) VALUES ('测试' , 1 , '<h1 style=\"font-size: 32px; font-weight: bold; border-bottom: 2px solid rgb(204, 204, 204); padding: 0px 4px 0px 0px; text-align: left; margin: 0px 0px 10px;\">你好<br/></h1><p>你大爷<br/></p><p><img src=\"/static/plugins/ueditor/php/upload/image/20170219/1487515095738202.jpg\" title=\"1487515095738202.jpg\" alt=\"电子版.jpg\"/></p>' , '就让我随便写点什么吧') [ RunTime:0.049833s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:38:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.004355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000206s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:49:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000206s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:49:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000262s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000204s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:49:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000197s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000178s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T22:49:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000182s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:29:24+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000193s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:29:26+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.047339s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:29:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:32:41+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000286s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000692s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null
+
+---------------------------------------------------------------
+[ 2017-02-19T23:32:51+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000732s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null
+
+---------------------------------------------------------------
+[ 2017-02-19T23:33:07+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] INSERT INTO `mrship_post` (`title` , `type` , `content` , `introduce`) VALUES ('我的天呐' , 1 , '<h1 style=\"font-size: 32px; font-weight: bold; border-bottom: 2px solid rgb(204, 204, 204); padding: 0px 4px 0px 0px; text-align: left; margin: 0px 0px 10px;\">是这样嘛<br/></h1><p>原来如此<br/></p><p><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 255);\">npm会问你一系列的问题，包括项目名称，版本描述等，可以详细填写，也可以直接一路回车。执行完成之后，会在当前目录下生成一个文件</span><code style=\"background: rgb(244, 244, 244); padding: 3px 5px; margin: 3px 5px; display: inline-block; color: rgb(68, 68, 68); white-space: normal;\">package.json</code><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 255);\">，一个简单的例子如下：</span></p><p><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 255);\"><br/></span></p><p><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 255);\"><img src=\"/static/plugins/ueditor/php/upload/image/20170219/1487518334764473.jpg\" title=\"1487518334764473.jpg\" alt=\"扁平图案（日本娃娃）.jpg\"/></span></p><p><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 0);\">我擦勒，能不能行</span></p><p><span style=\"color: rgb(68, 68, 68); font-family: Arial, &quot;Hiragino Sans GB&quot;, 冬青黑, &quot;Microsoft YaHei&quot;, 微软雅黑, SimSun, 宋体, Helvetica, Tahoma, &quot;Arial sans-serif&quot;; background-color: rgb(255, 255, 255);\"><br/></span></p>' , '卧槽') [ RunTime:0.017079s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:33:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000306s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000251s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:33:13+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000290s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:33:44+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:33:46+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000308s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:34:03+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000211s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:34:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000309s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:34:07+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000240s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:08+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000302s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000355s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:16+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000203s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:18+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000333s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000200s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:37:55+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000295s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:38:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000289s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000320s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:38:26+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000203s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:39:19+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000326s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000204s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:39:22+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000350s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:39:34+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000202s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:39:46+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000205s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:39:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000301s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:40:00+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000266s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:40:03+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000309s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:50:18+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000211s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:50:21+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000301s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:50:46+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000201s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:50:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mrship_post` LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` LIMIT 0,5 [ RunTime:0.000194s ]
+
+---------------------------------------------------------------
+[ 2017-02-19T23:50:57+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:dbname=mrship;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mrship_post` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `mrship_post` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000313s ]
+
+---------------------------------------------------------------
