@@ -52,14 +52,14 @@
                     <a href="/index/Cpost/index/id/{$post->getData('id')}">
                         <h2>{$post->getData('title')}</h2>
                     </a>
-                    <div class="blog-tag">tag<a href="#">{$post->getData('type')}</a></div>
+                    <div class="blog-tag"><a href="#"><span class="glyphicon glyphicon-tag"></span>&nbsp;{$post->getData('type')}</a></div>
                     <a href="#">
                         <div class="blog-review">
                             {$post->getData('introduce')}
                         </div>
                     </a>
                     <div class="blog-info">
-                        <div class="blog-time"><span></span><span></span></div>
+                        <div class="blog-time"><span class="glyphicon glyphicon-calendar"></span>&nbsp;<span>{$post->getData('create_time')}</span></div>
                         <div class="blog-read">
                             <span></span><span></span><span></span><span></span><span></span><span></span>
                         </div>

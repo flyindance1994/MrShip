@@ -22,11 +22,9 @@ class Code extends Controller{
 
             $htmls = $this->fetch();
 
-//            dump($htmls);
             return $htmls;
         } catch (\Exception $e) {
             return '系统错误' . $e->getMessage();
         }
-//        return view();
     }
 }
