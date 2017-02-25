@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MrShip_摄影</title>
+    <meta name="author" content="MRSHIP"/>
+    <meta name="Resource-type" content="Document"/>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+
+</head>
+<body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover;overflow-x: hidden">
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
+     style="background-color:rgba(0, 0, 0, 0.5);color: #ffffff;background-image: none;border: none">
+    <div class="container">
+        <div class="navbar-header nav-title ">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" style="color: #FFFFFF">I'm Ship</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right is-collapse">
+            <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
+                <li><a href="/" style="text-align: center"><span>首页</span></a></li>
+                <li><a href="/index/code" onclick="enterPage(1)"
+                       style="text-align: center"><span>代码</span></a></li>
+                <li class="active"><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
+                </li>
+                <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a>
+                </li>
+                <li><a href="javascript:void(0)" onclick="enterPage(4)" style="text-align: center"><span>rss</span></a>
+                </li>
+            </ul>
+        </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+</div>
+
+<div class="container" style="height: 100%;width:100%;position: relative;margin: 0;padding: 0 0 60px 0">
+    <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
+    <div class="row" style="padding-top: 60px">
+        <div class="blog-content-area">
+            <div class="grid">
+                <div class="grid-item">
+                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
+                </div>
+                <div class="grid-item">
+                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/static/js/examples.js"></script>
+<script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.grid').masonry({
+            // options...
+            itemSelector: '.grid-item',
+            columnWidth: 100
+        });
+    });
+
+    function show(num) {
+        var qq_layer = parent.layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 1,
+            area: '50%',
+            btn: '',
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: false,
+            scrollbar: false,
+            content: "<img style='text-align: center' width='100%' src='/static/image/show/"+num+".jpg'>"
+        });
+    }
+</script>
+
+</html>
