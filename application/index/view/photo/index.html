@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
-
+    <script src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
 </head>
 <body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover;overflow-x: hidden">
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
@@ -44,9 +45,9 @@
 
 <div class="container" style="height: 100%;width:100%;position: relative;margin: 0;padding: 0 0 60px 0">
     <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
-    <div class="row" style="padding-top: 60px">
-        <div class="blog-content-area">
-            <div class="grid">
+    <div class="col-lg-12" style="padding-top: 60px">
+        <div class="blog-content-area" style="text-align: center">
+            <div class="grid" style="text-align: center">
                 <div class="grid-item">
                     <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
                 </div>
@@ -112,14 +113,14 @@
     </div>
 </div>
 </body>
-<script src="/static/js/jquery.min.js"></script>
+
 <script src="/static/js/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="/static/js/examples.js"></script>
 <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
-<script type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
+
 <script>
     $(document).ready(function () {
         $('.grid').masonry({
