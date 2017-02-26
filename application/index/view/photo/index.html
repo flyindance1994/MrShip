@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
-    <script src="/static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
+    <link rel="stylesheet" href="/static/plugins/masonry/css/chromagallery.min.css">
 </head>
 <body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover;overflow-x: hidden">
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
@@ -47,102 +46,51 @@
     <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
     <div class="col-lg-12" style="padding-top: 60px">
         <div class="blog-content-area" style="text-align: center">
-            <div class="grid" style="text-align: center">
-                <div class="grid-item">
-                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(1)"><img width="300px" src="/static/image/show/1.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(2)"><img width="300px" src="/static/image/show/2.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(3)"><img width="300px" src="/static/image/show/3.jpg"></a>
-                </div>
-                <div class="grid-item">
-                    <a onclick="show(4)"><img width="300px" src="/static/image/show/4.jpg"></a>
-                </div>
+            <div class="chroma-gallery mygallery">
+                <img src="/static/image/show/thumbs/1.jpg" alt="Pic 1" data-largesrc="/static/image/show/1.jpg">
+                <img src="/static/image/show/thumbs/2.jpg" alt="Pic 2" data-largesrc="/static/image/show/2.jpg">
+                <img src="/static/image/show/thumbs/3.jpg" alt="Pic 3" data-largesrc="/static/image/show/3.jpg">
+                <img src="/static/image/show/thumbs/4.jpg" alt="Pic 4" data-largesrc="/static/image/show/4.jpg">
+                <img src="/static/image/show/thumbs/5.jpg" alt="Pic 1" data-largesrc="/static/image/show/5.jpg">
+                <img src="/static/image/show/thumbs/6.jpg" alt="Pic 1" data-largesrc="/static/image/show/6.jpg">
+                <img src="/static/image/show/thumbs/7.jpg" alt="Pic 1" data-largesrc="/static/image/show/7.jpg">
+                <img src="/static/image/show/thumbs/8.jpg" alt="Pic 1" data-largesrc="/static/image/show/8.jpg">
+                <img src="/static/image/show/thumbs/9.jpg" alt="Pic 1" data-largesrc="/static/image/show/9.jpg">
+                <img src="/static/image/show/thumbs/10.jpg" alt="Pic 1" data-largesrc="/static/image/show/10.jpg">
+                <img src="/static/image/show/thumbs/11.jpg" alt="Pic 1" data-largesrc="/static/image/show/11.jpg">
+                <img src="/static/image/show/thumbs/12.jpg" alt="Pic 1" data-largesrc="/static/image/show/12.jpg">
+                <img src="/static/image/show/thumbs/13.jpg" alt="Pic 1" data-largesrc="/static/image/show/13.jpg">
+                <img src="/static/image/show/thumbs/14.jpg" alt="Pic 1" data-largesrc="/static/image/show/14.jpg">
+                <img src="/static/image/show/thumbs/15.jpg" alt="Pic 1" data-largesrc="/static/image/show/15.jpg">
+                <img src="/static/image/show/thumbs/16.jpg" alt="Pic 1" data-largesrc="/static/image/show/16.jpg">
+                <img src="/static/image/show/thumbs/17.jpg" alt="Pic 1" data-largesrc="/static/image/show/17.jpg">
+                <img src="/static/image/show/thumbs/18.jpg" alt="Pic 1" data-largesrc="/static/image/show/18.jpg">
             </div>
         </div>
     </div>
 </div>
 </body>
-
+<script src="/static/js/jquery.min.js"></script>
 <script src="/static/js/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="/static/js/examples.js"></script>
 <script type="text/javascript" src="/static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
+<script src="/static/plugins/masonry/js/modernizr-chrg.min.js"></script>
+<script src="/static/plugins/masonry/js/imagesloaded.min.js"></script>
+<script src="/static/plugins/masonry/js/masonry.min.js"></script>
+<script src="/static/plugins/masonry/js/chromagallery.min.js"></script>
 
-<script>
-    $(document).ready(function () {
-        $('.grid').masonry({
-            // options...
-            itemSelector: '.grid-item',
-            columnWidth: 100
-        });
+<script type="text/javascript">
+    $(".mygallery").chromaGallery
+    ({
+        color:'#000',
+        gridMargin:15,
+        maxColumns:5,
+        dof:true,
+        screenOpacity:0.8
     });
-
-    function show(num) {
-        var qq_layer = parent.layer.open({
-            type: 1,
-            title: false,
-            closeBtn: 1,
-            area: '50%',
-            btn: '',
-            skin: 'layui-layer-nobg', //没有背景色
-            shadeClose: false,
-            scrollbar: false,
-            content: "<img style='text-align: center' width='100%' src='/static/image/show/"+num+".jpg'>"
-        });
-    }
 </script>
 
 </html>
