@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 </head>
-<body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-attachment:fixed">
+<body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;overflow-x: hidden">
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
      style="background-color:rgba(0, 0, 0, 0.5);color: #ffffff;background-image: none;border: none">
     <div class="container">
@@ -28,9 +28,9 @@
             <ul class="nav navbar-nav">
                 <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
                 <li><a href="/" style="text-align: center"><span>首页</span></a></li>
-                <li><a href="/index/code" onclick="enterPage(1)"
+                <li class="active"><a href="/index/code" onclick="enterPage(1)"
                        style="text-align: center"><span>代码</span></a></li>
-                <li><a href="javascript:void(0)" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
+                <li><a href="/index/photo" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
                 </li>
                 <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a>
                 </li>
@@ -51,7 +51,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 </body>
 </html>
