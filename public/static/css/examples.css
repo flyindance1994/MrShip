@@ -394,15 +394,7 @@ p {
 
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
-
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
+    
 }
 
 
@@ -413,14 +405,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path3 {
@@ -430,14 +414,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path4 {
@@ -446,15 +422,6 @@ p {
 
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
-
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path5 {
@@ -464,14 +431,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path6 {
@@ -480,15 +439,6 @@ p {
 
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
-
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path7 {
@@ -498,14 +448,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path8 {
@@ -515,14 +457,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path9 {
@@ -532,14 +466,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 #path10 {
@@ -549,14 +475,6 @@ p {
     animation: polanim 5s linear infinite ;
     animation-fill-mode:both ;
 
-    -webkit-animation: polanim 5s linear infinite ;
-    -webkit-animation-fill-mode:both ;
-
-    -moz-animation: polanim 5s linear infinite ;
-    -moz-animation-fill-mode:both ;
-
-    -o-animation: polanim 5s linear infinite ;
-    -o-animation-fill-mode:both ;
 }
 
 @keyframes polanim {
