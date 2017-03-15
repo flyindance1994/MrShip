@@ -1,6 +1,6 @@
 .ship{
     height:100%;
-    font-family: '思源黑体 CN Medium';
+    font-family: 'ship';
     background-image: url('/static/image/bg_image.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -9,8 +9,8 @@
 }
 .blog-content-area {
     padding-top: 20px;
-    min-width: 850px;
-    max-width: 1200px;
+    /*min-width: 850px;*/
+    /*max-width: 1200px;*/
     margin: 0 auto;
     /* padding-top: 20px; */
     overflow: hidden;
@@ -20,7 +20,7 @@
 .blog-content-block {
     /*border-bottom: 1p*/
     vertical-align: top;
-    min-width: 770px;
+    /*min-width: 770px;*/
     position: relative;
     margin: 0 0 30px 0;
     /*border-bottom: 1px solid #F7F7F7;*/

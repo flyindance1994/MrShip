@@ -5,20 +5,21 @@
     <title>MrShip_代码</title>
     <meta name="author" content="MRSHIP"/>
     <meta name="Resource-type" content="Document"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
-    <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/mrship.css"/>
+
 
 </head>
-<body style="height:100%;font-family: '思源黑体 CN Medium';background-color:gainsboro;background-size: cover;overflow-x: hidden">
+<body style="background-color:gainsboro">
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
      style="background-color:rgba(0, 0, 0, 0.5);color: #ffffff;background-image: none;border: none">
     <div class="container">
-        <div class="navbar-header nav-title ">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -26,14 +27,12 @@
             </button>
             <a class="navbar-brand" href="/" style="color: #FFFFFF">I'm Ship</a>
         </div>
-        <div class="collapse navbar-collapse navbar-right is-collapse">
+        <div id="navbar" class="collapse navbar-collapse navbar-right is-collapse">
             <ul class="nav navbar-nav">
                 <!--<li class="active"><a href="index.html" style="text-align: center"><span>首页</span></a></li>-->
                 <li><a href="/" style="text-align: center"><span>首页</span></a></li>
-                <li class="active"><a href="/index/code" onclick="enterPage(1)"
-                                      style="text-align: center"><span>代码</span></a></li>
-                <li><a href="/index/photo" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a>
-                </li>
+                <li class="active"><a href="/index/code" onclick="enterPage(1)" style="text-align: center"><span>代码</span></a></li>
+                <li><a href="/index/photo" onclick="enterPage(2)" style="text-align: center"><span>摄影</span></a></li>
                 <li><a href="javascript:void(0)" onclick="enterPage(3)" style="text-align: center"><span>留言</span></a>
                 </li>
                 <li><a href="javascript:void(0)" onclick="enterPage(4)" style="text-align: center"><span>rss</span></a>
@@ -43,9 +42,9 @@
     </div><!-- /.container -->
 </div>
 
-<div class="container" style="height: 100%;width:100%;position: relative;margin: 0;padding: 0 0 60px 0">
-    <div style="height: 100%;width:100%;position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
-    <div class="row" style="padding-top: 60px">
+<div class="container col-sm-12" style="padding: 0 20px 60px 20px">
+    <div style="position:absolute;background-color: rgba(255,255,255,0.5);margin: 0;padding: 0"></div>
+    <div class="row" style="padding-top: 60px;margin: 0">
         <div class="blog-content-area">
             {volist name="posts" id="post" key="key"}
             <div class="blog-content-block">
