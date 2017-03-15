@@ -380,7 +380,7 @@ p {
 
 .ship{
     height:100%;
-    font-family: '思源黑体 CN Medium';
+    font-family: 'ship';
     background-image: url('/static/image/bg_image.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -388,5 +388,92 @@ p {
     -o-background-size: cover;
 }
 
+#path1 {
+    stroke-dasharray: 0,238;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+
+#path2 {
+    stroke-dasharray: 0,493;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path3 {
+    stroke-dasharray: 0,756.26;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path4 {
+    stroke-dasharray: 0,756.26;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path5 {
+    stroke-dasharray: 0,551.81;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path6 {
+    stroke-dasharray: 0,465.27;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path7 {
+    stroke-dasharray: 0,534.03;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path8 {
+    stroke-dasharray: 0,237.22;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path9 {
+    stroke-dasharray: 0,454.38;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+#path10 {
+    stroke-dasharray: 0,69.70;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 0;/*表示虚线的起始偏移*/
+    -webkit-animation: polanim 5s linear infinite ;
+    -webkit-animation-fill-mode:both ;
+}
+
+@-webkit-keyframes polanim {
+    0% {
+        stroke-dasharray: 0, 100%;
+        stroke-dashoffset:0;
+    }
+
+    50% {
+        stroke-dasharray: 100%, 0;
+        stroke-dashoffset:0;
+    }
+
+    100% {
+        stroke-dasharray: 0, 100%;
+        stroke-dashoffset:-100%;
+    }
+}
 
 
