@@ -383,7 +383,7 @@ p {
 
 .ship{
     height:100%;
-    font-family: 'ship';
+    font-family: '微软雅黑';
     background-image: url('/static/image/bg_image.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -395,8 +395,28 @@ p {
     stroke-dasharray: 0,238;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    /*animation: polanim 3s linear forwards ;*/
+    /*animation-fill-mode:both ;*/
+
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 0;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -405,17 +425,50 @@ p {
     stroke-dasharray: 0,493;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
 
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 }
 
 #path3 {
     stroke-dasharray: 0,756.26;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -423,16 +476,50 @@ p {
     stroke-dasharray: 0,756.26;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 }
 
 #path5 {
     stroke-dasharray: 0,551.81;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -440,16 +527,50 @@ p {
     stroke-dasharray: 0,465.27;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 }
 
 #path7 {
     stroke-dasharray: 0,534.03;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -457,8 +578,25 @@ p {
     stroke-dasharray: 0,237.22;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -466,8 +604,25 @@ p {
     stroke-dasharray: 0,454.38;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -475,8 +630,25 @@ p {
     stroke-dasharray: 0,69.70;/*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
     stroke-dashoffset: 0;/*表示虚线的起始偏移*/
 
-    animation: polanim 3s linear forwards ;
-    animation-fill-mode:both ;
+    animation-name: polanim;                         /* 动画名称 */
+    animation-duration: 3s;                         /* 动画时长3秒 */
+    animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -moz-animation-name: polanim;                         /* 动画名称 */
+    -moz-animation-duration: 3s;                         /* 动画时长3秒 */
+    -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -webkit-animation-name: polanim;                         /* 动画名称 */
+    -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
+    -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+
+    -o-animation-name: polanim;                         /* 动画名称 */
+    -o-animation-duration: 3s;                         /* 动画时长3秒 */
+    -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
 
 }
 
@@ -570,3 +742,58 @@ p {
         opacity: 1; }
 }
 
+.breath_light {
+    /*width: 50px;                                    /* 宽度 */
+    /*height: 4px;                                    /* 高度 */
+    opacity: 0.8;                                   /* 不透明度 */
+    overflow: hidden;                               /* 溢出隐藏 */
+    /*margin: 25% auto;                               /* 外边距 */
+
+    /* IE10、Firefox and Opera，IE9以及更早的版本不支持 */
+    animation-name: breath;                         /* 动画名称 */
+    animation-duration: 2s;                         /* 动画时长3秒 */
+    animation-timing-function: ease-in-out;         /* 动画速度曲线：以低速开始和结束 */
+    animation-iteration-count: infinite;            /* 播放次数：无限 */
+
+    /* Safari and Chrome */
+    -webkit-animation-name: breath;                 /* 动画名称 */
+    -webkit-animation-duration: 2s;                 /* 动画时长3秒 */
+    -webkit-animation-timing-function: ease-in-out; /* 动画速度曲线：以低速开始和结束 */
+    -webkit-animation-iteration-count: infinite;    /* 播放次数：无限 */
+
+    /* firefox */
+    -moz-animation-name: breath;                 /* 动画名称 */
+    -moz-animation-duration: 2s;                 /* 动画时长3秒 */
+    -moz-animation-timing-function: ease-in-out; /* 动画速度曲线：以低速开始和结束 */
+    -moz-animation-iteration-count: infinite;    /* 播放次数：无限 */
+
+    /* opera */
+    -o-animation-name: breath;                 /* 动画名称 */
+    -o-animation-duration: 2s;                 /* 动画时长3秒 */
+    -o-animation-timing-function: ease-in-out; /* 动画速度曲线：以低速开始和结束 */
+    -o-animation-iteration-count: infinite;    /* 播放次数：无限 */
+}
+
+@keyframes breath {
+    from { opacity: 0.7; }                          /* 动画开始时的不透明度 */
+    50%  { opacity:   1; }                          /* 动画50% 时的不透明度 */
+    to   { opacity: 0.7; }                          /* 动画结束时的不透明度 */
+}
+
+@-webkit-keyframes breath {
+    from { opacity: 0.7; }                          /* 动画开始时的不透明度 */
+    50%  { opacity:   1; }                          /* 动画50% 时的不透明度 */
+    to   { opacity: 0.7; }                          /* 动画结束时的不透明度 */
+}
+
+@-moz-keyframes breath {
+    from { opacity: 0.7; }                          /* 动画开始时的不透明度 */
+    50%  { opacity:   1; }                          /* 动画50% 时的不透明度 */
+    to   { opacity: 0.7; }                          /* 动画结束时的不透明度 */
+}
+
+@-o-keyframes breath {
+    from { opacity: 0.7; }                          /* 动画开始时的不透明度 */
+    50%  { opacity:   1; }                          /* 动画50% 时的不透明度 */
+    to   { opacity: 0.7; }                          /* 动画结束时的不透明度 */
+}
