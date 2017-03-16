@@ -1,6 +1,6 @@
 .ship{
     height:100%;
-    font-family: 'ship';
+    font-family: '微软雅黑';
     background-image: url('/static/image/bg_image.jpg');
     background-size: cover;
     -webkit-background-size: cover;
