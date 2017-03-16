@@ -796,3 +796,13 @@ p {
     50%  { opacity:   1; }                          /* 动画50% 时的不透明度 */
     to   { opacity: 0.7; }                          /* 动画结束时的不透明度 */
 }
+
+.footer{
+    position: absolute;
+    bottom: 15px;
+}
+
+.footer a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
