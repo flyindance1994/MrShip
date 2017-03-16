@@ -12,9 +12,17 @@
     <link rel="stylesheet" type="text/css" href="/static/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="/static/plugins/fullpage/css/jquery.fullPage.css"/>
     <link rel="stylesheet" type="text/css" href="/static/css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/loader.css"/>
+
 
 </head>
 <body class="ship">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title"><br><span></span></div>
+</div>
 
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"
      style="background-color:rgba(0, 0, 0, 0.9);color: #ffffff;background-image: none;border: none">
@@ -214,6 +222,14 @@
 
 <script type="text/javascript" src="/static/plugins/layer/layer.js"></script>
 <script type="text/javascript">
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+    });
+</script>
+<script type="text/javascript">
+
     $(document).ready(function () {
         var path = document.getElementById('path10');
         var length = path.getTotalLength();
