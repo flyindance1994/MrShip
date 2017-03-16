@@ -401,22 +401,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 0;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -428,22 +428,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 }
 
 #path3 {
@@ -453,22 +453,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -479,22 +479,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 }
 
 #path5 {
@@ -504,22 +504,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -530,22 +530,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 }
 
 #path7 {
@@ -555,22 +555,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -581,22 +581,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -607,22 +607,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -o-animation-fill-mode:forwards;
 
 }
 
@@ -633,23 +633,22 @@ p {
     animation-name: polanim;                         /* 动画名称 */
     animation-duration: 3s;                         /* 动画时长3秒 */
     animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    animation-iteration-count: 1;            /* 播放次数：无限 */
+    animation-fill-mode:forwards;
 
     -moz-animation-name: polanim;                         /* 动画名称 */
     -moz-animation-duration: 3s;                         /* 动画时长3秒 */
     -moz-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -moz-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -moz-animation-fill-mode:forwards;
 
     -webkit-animation-name: polanim;                         /* 动画名称 */
     -webkit-animation-duration: 3s;                         /* 动画时长3秒 */
     -webkit-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -webkit-animation-iteration-count: 1;            /* 播放次数：无限 */
+    -webkit-animation-fill-mode:forwards;
 
     -o-animation-name: polanim;                         /* 动画名称 */
     -o-animation-duration: 3s;                         /* 动画时长3秒 */
     -o-animation-timing-function: linear;         /* 动画速度曲线：以低速开始和结束 */
-    -o-animation-iteration-count: 1;            /* 播放次数：无限 */
-
+    -o-animation-fill-mode:forwards;
 }
 
 @keyframes polanim {
