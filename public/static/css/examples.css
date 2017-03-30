@@ -719,7 +719,7 @@ p {
     /*}*/
 }
 
-#try{
+.try{
     animation: 3s getout ease-in;
 }
 
